@@ -12,19 +12,19 @@ public class Main {
                 }
 
             } else if (i % 5 == 0){
-                if (i%7 == 0){
+                if (i % 7 == 0){
                     System.out.println("FizzBang");
                 }else {
                     System.out.println("Buzz");
                 }
 
             } else if (i % 3 == 0){
-                if (i%7 == 0){
+                if (i % 7 == 0){
                     System.out.println("FizzBang");
                 }else {
                     System.out.println("Fizz");
                 }
-            } else if (i%7 ==0){
+            } else if (i % 7 ==0){
                 System.out.println("Bang");
             }
             else {
